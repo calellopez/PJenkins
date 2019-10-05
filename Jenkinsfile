@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build assets') {
       steps {
-        sh 'npm install'
+        sh './clean.'
       }
     }
   }
