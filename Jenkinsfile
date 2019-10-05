@@ -4,6 +4,7 @@ pipeline {
     stage('build assets') {
       steps {
         sh './clean.'
+        echo 'hola'
       }
     }
   }
